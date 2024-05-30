@@ -1,0 +1,1407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+
+<Folder id="results">
+    <name>Johar town to Model town</name>
+    <Style id="dir_step">
+      <IconStyle>
+          <Icon>
+            <href>http://maps.gstatic.com/mapfiles/kml/paddle/pause.png</href>
+          </Icon>
+      </IconStyle>
+      <BalloonStyle>
+          <text><![CDATA[<div>$[description]</div><div>$[geDirections]</div>]]></text>
+          <textColor>ff000000</textColor>
+          <displayMode>default</displayMode>
+      </BalloonStyle>
+    </Style>
+    <Placemark id="1.1">
+      <name>Johar Town</name>
+      <address>Johar Town</address>
+      <styleUrl>#dir_startpoint</styleUrl>
+      <Point>
+          <coordinates>74.2728461,31.469693,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="1.2">
+      <name>Model Town</name>
+      <address>Model Town</address>
+      <styleUrl>#dir_endpoint</styleUrl>
+      <Point>
+          <coordinates>74.3239342,31.4804642,0</coordinates>
+      </Point>
+    </Placemark>
+    <Folder id="1.3">
+      <name>Khayaban-e-Firdousi</name>
+      <Style id="dir_route">
+          <LineStyle>
+            <color>7fa00000</color>
+            <colorMode>normal</colorMode>
+            <width>6</width>
+          </LineStyle>
+      </Style>
+      <Placemark id="1.3.2.2.2">
+          <name>Head northwest on Main Blvd toward Main Blvd</name>
+          <description>Head northwest on Main Blvd toward Main Blvd</description>
+          <LookAt>
+            <longitude>74.2728273</longitude>
+            <latitude>31.4697247</latitude>
+            <altitude>0</altitude>
+            <heading>-71.98071</heading>
+            <tilt>45</tilt>
+            <range>360</range>
+          </LookAt>
+          <styleUrl>#dir_step</styleUrl>
+          <Region>
+            <LatLonAltBox>
+                <north>31.5697247</north>
+                <south>31.3697247</south>
+                <east>74.3728273</east>
+                <west>74.17282730000001</west>
+                <minAltitude>0</minAltitude>
+                <maxAltitude>0</maxAltitude>
+                <altitudeMode>absolute</altitudeMode>
+            </LatLonAltBox>
+            <Lod>
+                <minLodPixels>512</minLodPixels>
+                <maxLodPixels>-1</maxLodPixels>
+                <minFadeExtent>0</minFadeExtent>
+                <maxFadeExtent>0</maxFadeExtent>
+            </Lod>
+          </Region>
+          <Point>
+            <coordinates>74.2728273,31.46972469999999,0</coordinates>
+          </Point>
+      </Placemark>
+      <Placemark id="1.3.2.2.3">
+          <name>Turn left at Airlink Samsung PCSP onto Service Rd</name>
+          <description>Turn left at Airlink Samsung PCSP onto Service Rd</description>
+          <LookAt>
+            <longitude>74.27268289999999</longitude>
+            <latitude>31.4699594</latitude>
+            <altitude>0</altitude>
+            <heading>-17.161207</heading>
+            <tilt>45</tilt>
+            <range>360</range>
+          </LookAt>
+          <styleUrl>#dir_step</styleUrl>
+          <Region>
+            <LatLonAltBox>
+                <north>31.5699594</north>
+                <south>31.3699594</south>
+                <east>74.37268289999999</east>
+                <west>74.1726829</west>
+                <minAltitude>0</minAltitude>
+                <maxAltitude>0</maxAltitude>
+                <altitudeMode>absolute</altitudeMode>
+            </LatLonAltBox>
+            <Lod>
+                <minLodPixels>512</minLodPixels>
+                <maxLodPixels>-1</maxLodPixels>
+                <minFadeExtent>0</minFadeExtent>
+                <maxFadeExtent>0</maxFadeExtent>
+            </Lod>
+          </Region>
+          <Point>
+            <coordinates>74.27268289999999,31.4699594,0</coordinates>
+          </Point>
+      </Placemark>
+      <Placemark id="1.3.2.2.4">
+          <name>Turn left at Airlink Samsung PCSP onto Service Road</name>
+          <description>Turn left at Airlink Samsung PCSP onto Service Road</description>
+          <LookAt>
+            <longitude>74.2725688</longitude>
+            <latitude>31.4699434</latitude>
+            <altitude>0</altitude>
+            <heading>-99.336494</heading>
+            <tilt>45</tilt>
+            <range>360</range>
+          </LookAt>
+          <styleUrl>#dir_step</styleUrl>
+          <Region>
+            <LatLonAltBox>
+                <north>31.5699434</north>
+                <south>31.3699434</south>
+                <east>74.3725688</east>
+                <west>74.17256880000001</west>
+                <minAltitude>0</minAltitude>
+                <maxAltitude>0</maxAltitude>
+                <altitudeMode>absolute</altitudeMode>
+            </LatLonAltBox>
+            <Lod>
+                <minLodPixels>512</minLodPixels>
+                <maxLodPixels>-1</maxLodPixels>
+                <minFadeExtent>0</minFadeExtent>
+                <maxFadeExtent>0</maxFadeExtent>
+            </Lod>
+          </Region>
+          <Point>
+            <coordinates>74.2725688,31.4699434,0</coordinates>
+          </Point>
+      </Placemark>
+      <Placemark id="1.3.2.2.5">
+          <name>Turn left at KMU Head Office Lahore onto Abdul Haque Rd</name>
+          <description>Turn left at KMU Head Office Lahore onto Abdul Haque Rd</description>
+          <LookAt>
+            <longitude>74.2726</longitude>
+            <latitude>31.4698495</latitude>
+            <altitude>0</altitude>
+            <heading>164.17746</heading>
+            <tilt>45</tilt>
+            <range>360</range>
+          </LookAt>
+          <styleUrl>#dir_step</styleUrl>
+          <Region>
+            <LatLonAltBox>
+                <north>31.5698495</north>
+                <south>31.3698495</south>
+                <east>74.37259999999999</east>
+                <west>74.1726</west>
+                <minAltitude>0</minAltitude>
+                <maxAltitude>0</maxAltitude>
+                <altitudeMode>absolute</altitudeMode>
+            </LatLonAltBox>
+            <Lod>
+                <minLodPixels>512</minLodPixels>
+                <maxLodPixels>-1</maxLodPixels>
+                <minFadeExtent>0</minFadeExtent>
+                <maxFadeExtent>0</maxFadeExtent>
+            </Lod>
+          </Region>
+          <Point>
+            <coordinates>74.2726,31.4698495,0</coordinates>
+          </Point>
+      </Placemark>
+      <Placemark id="1.3.2.2.6">
+          <name>Turn right at Khokhar Chowk onto Main Blvd</name>
+          <description>Turn right at Khokhar Chowk onto Main Blvd</description>
+          <LookAt>
+            <longitude>74.2727134</longitude>
+            <latitude>31.46987</latitude>
+            <altitude>0</altitude>
+            <heading>78.03321</heading>
+            <tilt>45</tilt>
+            <range>360</range>
+          </LookAt>
+          <styleUrl>#dir_step</styleUrl>
+          <Region>
+            <LatLonAltBox>
+                <north>31.56987000000001</north>
+                <south>31.36987</south>
+                <east>74.37271339999999</east>
+                <west>74.17271340000001</west>
+                <minAltitude>0</minAltitude>
+                <maxAltitude>0</maxAltitude>
+                <altitudeMode>absolute</altitudeMode>
+            </LatLonAltBox>
+            <Lod>
+                <minLodPixels>512</minLodPixels>
+                <maxLodPixels>-1</maxLodPixels>
+                <minFadeExtent>0</minFadeExtent>
+                <maxFadeExtent>0</maxFadeExtent>
+            </Lod>
+          </Region>
+          <Point>
+            <coordinates>74.2727134,31.46987,0</coordinates>
+          </Point>
+      </Placemark>
+      <Placemark id="1.3.2.3.2">
+          <name>Turn left</name>
+          <description>Turn left</description>
+          <LookAt>
+            <longitude>74.27510479999999</longitude>
+            <latitude>31.4625275</latitude>
+            <altitude>0</altitude>
+            <heading>164.23703</heading>
+            <tilt>45</tilt>
+            <range>360</range>
+          </LookAt>
+          <styleUrl>#dir_step</styleUrl>
+          <Region>
+            <LatLonAltBox>
+                <north>31.56252750000001</north>
+                <south>31.3625275</south>
+                <east>74.37510479999999</east>
+                <west>74.1751048</west>
+                <minAltitude>0</minAltitude>
+                <maxAltitude>0</maxAltitude>
+                <altitudeMode>absolute</altitudeMode>
+            </LatLonAltBox>
+            <Lod>
+                <minLodPixels>512</minLodPixels>
+                <maxLodPixels>-1</maxLodPixels>
+                <minFadeExtent>0</minFadeExtent>
+                <maxFadeExtent>0</maxFadeExtent>
+            </Lod>
+          </Region>
+          <Point>
+            <coordinates>74.27510479999999,31.4625275,0</coordinates>
+          </Point>
+      </Placemark>
+      <Placemark id="1.3.2.3.3">
+          <name>At the roundabout, take the 2nd exit</name>
+          <description>At the roundabout, take the 2nd exit</description>
+          <LookAt>
+            <longitude>74.2829421</longitude>
+            <latitude>31.462494</latitude>
+            <altitude>0</altitude>
+            <heading>106.211876</heading>
+            <tilt>45</tilt>
+            <range>360</range>
+          </LookAt>
+          <styleUrl>#dir_step</styleUrl>
+          <Region>
+            <LatLonAltBox>
+                <north>31.562494</north>
+                <south>31.36249399999999</south>
+                <east>74.38294209999999</east>
+                <west>74.18294210000001</west>
+                <minAltitude>0</minAltitude>
+                <maxAltitude>0</maxAltitude>
+                <altitudeMode>absolute</altitudeMode>
+            </LatLonAltBox>
+            <Lod>
+                <minLodPixels>512</minLodPixels>
+                <maxLodPixels>-1</maxLodPixels>
+                <minFadeExtent>0</minFadeExtent>
+                <maxFadeExtent>0</maxFadeExtent>
+            </Lod>
+          </Region>
+          <Point>
+            <coordinates>74.2829421,31.462494,0</coordinates>
+          </Point>
+      </Placemark>
+      <Placemark id="1.3.2.4.2">
+          <name>Turn left onto Khayaban-e-Firdousi</name>
+          <description>Turn left onto Khayaban-e-Firdousi</description>
+          <LookAt>
+            <longitude>74.2842299</longitude>
+            <latitude>31.4613119</latitude>
+            <altitude>0</altitude>
+            <heading>127.77302</heading>
+            <tilt>45</tilt>
+            <range>360</range>
+          </LookAt>
+          <styleUrl>#dir_step</styleUrl>
+          <Region>
+            <LatLonAltBox>
+                <north>31.5613119</north>
+                <south>31.3613119</south>
+                <east>74.38422989999999</east>
+                <west>74.18422990000001</west>
+                <minAltitude>0</minAltitude>
+                <maxAltitude>0</maxAltitude>
+                <altitudeMode>absolute</altitudeMode>
+            </LatLonAltBox>
+            <Lod>
+                <minLodPixels>512</minLodPixels>
+                <maxLodPixels>-1</maxLodPixels>
+                <minFadeExtent>0</minFadeExtent>
+                <maxFadeExtent>0</maxFadeExtent>
+            </Lod>
+          </Region>
+          <Point>
+            <coordinates>74.2842299,31.4613119,0</coordinates>
+          </Point>
+      </Placemark>
+      <Placemark id="1.3.2.4.3">
+          <name>Continue straight to stay on Khayaban-e-Firdousi</name>
+          <description>Continue straight to stay on Khayaban-e-Firdousi</description>
+          <LookAt>
+            <longitude>74.29825679999999</longitude>
+            <latitude>31.469147</latitude>
+            <altitude>0</altitude>
+            <heading>59.958263</heading>
+            <tilt>45</tilt>
+            <range>360</range>
+          </LookAt>
+          <styleUrl>#dir_step</styleUrl>
+          <Region>
+            <LatLonAltBox>
+                <north>31.569147</north>
+                <south>31.369147</south>
+                <east>74.39825679999998</east>
+                <west>74.1982568</west>
+                <minAltitude>0</minAltitude>
+                <maxAltitude>0</maxAltitude>
+                <altitudeMode>absolute</altitudeMode>
+            </LatLonAltBox>
+            <Lod>
+                <minLodPixels>512</minLodPixels>
+                <maxLodPixels>-1</maxLodPixels>
+                <minFadeExtent>0</minFadeExtent>
+                <maxFadeExtent>0</maxFadeExtent>
+            </Lod>
+          </Region>
+          <Point>
+            <coordinates>74.29825679999999,31.469147,0</coordinates>
+          </Point>
+      </Placemark>
+      <Placemark id="1.3.2.4.4">
+          <name>Turn left onto Maulana Shaukat Ali Rd</name>
+          <description>Turn left onto Maulana Shaukat Ali Rd</description>
+          <LookAt>
+            <longitude>74.302618</longitude>
+            <latitude>31.4713168</latitude>
+            <altitude>0</altitude>
+            <heading>66.545135</heading>
+            <tilt>45</tilt>
+            <range>360</range>
+          </LookAt>
+          <styleUrl>#dir_step</styleUrl>
+          <Region>
+            <LatLonAltBox>
+                <north>31.57131680000001</north>
+                <south>31.3713168</south>
+                <east>74.40261799999999</east>
+                <west>74.202618</west>
+                <minAltitude>0</minAltitude>
+                <maxAltitude>0</maxAltitude>
+                <altitudeMode>absolute</altitudeMode>
+            </LatLonAltBox>
+            <Lod>
+                <minLodPixels>512</minLodPixels>
+                <maxLodPixels>-1</maxLodPixels>
+                <minFadeExtent>0</minFadeExtent>
+                <maxFadeExtent>0</maxFadeExtent>
+            </Lod>
+          </Region>
+          <Point>
+            <coordinates>74.302618,31.47131680000001,0</coordinates>
+          </Point>
+      </Placemark>
+      <Placemark id="1.3.2.4.5">
+          <name>Turn right onto Main Rd/Qazi Muhammad Isa Rd</name>
+          <description>Turn right onto Main Rd/Qazi Muhammad Isa Rd</description>
+          <LookAt>
+            <longitude>74.3019439</longitude>
+            <latitude>31.4746656</latitude>
+            <altitude>0</altitude>
+            <heading>-15.80103</heading>
+            <tilt>45</tilt>
+            <range>360</range>
+          </LookAt>
+          <styleUrl>#dir_step</styleUrl>
+          <Region>
+            <LatLonAltBox>
+                <north>31.5746656</north>
+                <south>31.3746656</south>
+                <east>74.40194389999999</east>
+                <west>74.2019439</west>
+                <minAltitude>0</minAltitude>
+                <maxAltitude>0</maxAltitude>
+                <altitudeMode>absolute</altitudeMode>
+            </LatLonAltBox>
+            <Lod>
+                <minLodPixels>512</minLodPixels>
+                <maxLodPixels>-1</maxLodPixels>
+                <minFadeExtent>0</minFadeExtent>
+                <maxFadeExtent>0</maxFadeExtent>
+            </Lod>
+          </Region>
+          <Point>
+            <coordinates>74.3019439,31.4746656,0</coordinates>
+          </Point>
+      </Placemark>
+      <Placemark id="1.3.2.4.6">
+          <name>Turn left at Speed Tyres - Yokohama Authorized Dealer onto Abul Hassan Isfahani Rd</name>
+          <description>Turn left at Speed Tyres - Yokohama Authorized Dealer onto Abul Hassan Isfahani Rd</description>
+          <LookAt>
+            <longitude>74.3088444</longitude>
+            <latitude>31.4768127</latitude>
+            <altitude>0</altitude>
+            <heading>67.79134999999999</heading>
+            <tilt>45</tilt>
+            <range>360</range>
+          </LookAt>
+          <styleUrl>#dir_step</styleUrl>
+          <Region>
+            <LatLonAltBox>
+                <north>31.5768127</north>
+                <south>31.3768127</south>
+                <east>74.40884439999999</east>
+                <west>74.2088444</west>
+                <minAltitude>0</minAltitude>
+                <maxAltitude>0</maxAltitude>
+                <altitudeMode>absolute</altitudeMode>
+            </LatLonAltBox>
+            <Lod>
+                <minLodPixels>512</minLodPixels>
+                <maxLodPixels>-1</maxLodPixels>
+                <minFadeExtent>0</minFadeExtent>
+                <maxFadeExtent>0</maxFadeExtent>
+            </Lod>
+          </Region>
+          <Point>
+            <coordinates>74.3088444,31.4768127,0</coordinates>
+          </Point>
+      </Placemark>
+      <Placemark id="1.3.2.5.2">
+          <name>Turn right</name>
+          <description>Turn right</description>
+          <LookAt>
+            <longitude>74.308246</longitude>
+            <latitude>31.4784906</latitude>
+            <altitude>0</altitude>
+            <heading>-17.30838</heading>
+            <tilt>45</tilt>
+            <range>360</range>
+          </LookAt>
+          <styleUrl>#dir_step</styleUrl>
+          <Region>
+            <LatLonAltBox>
+                <north>31.5784906</north>
+                <south>31.3784906</south>
+                <east>74.40824599999999</east>
+                <west>74.208246</west>
+                <minAltitude>0</minAltitude>
+                <maxAltitude>0</maxAltitude>
+                <altitudeMode>absolute</altitudeMode>
+            </LatLonAltBox>
+            <Lod>
+                <minLodPixels>512</minLodPixels>
+                <maxLodPixels>-1</maxLodPixels>
+                <minFadeExtent>0</minFadeExtent>
+                <maxFadeExtent>0</maxFadeExtent>
+            </Lod>
+          </Region>
+          <Point>
+            <coordinates>74.308246,31.4784906,0</coordinates>
+          </Point>
+      </Placemark>
+      <Placemark id="1.3.2.5.3">
+          <name>At Wahab Nursery, continue onto Lane 48</name>
+          <description>At Wahab Nursery, continue onto Lane 48</description>
+          <LookAt>
+            <longitude>74.3159453</longitude>
+            <latitude>31.4808294</latitude>
+            <altitude>0</altitude>
+            <heading>70.342384</heading>
+            <tilt>45</tilt>
+            <range>360</range>
+          </LookAt>
+          <styleUrl>#dir_step</styleUrl>
+          <Region>
+            <LatLonAltBox>
+                <north>31.5808294</north>
+                <south>31.3808294</south>
+                <east>74.41594529999999</east>
+                <west>74.2159453</west>
+                <minAltitude>0</minAltitude>
+                <maxAltitude>0</maxAltitude>
+                <altitudeMode>absolute</altitudeMode>
+            </LatLonAltBox>
+            <Lod>
+                <minLodPixels>512</minLodPixels>
+                <maxLodPixels>-1</maxLodPixels>
+                <minFadeExtent>0</minFadeExtent>
+                <maxFadeExtent>0</maxFadeExtent>
+            </Lod>
+          </Region>
+          <Point>
+            <coordinates>74.3159453,31.4808294,0</coordinates>
+          </Point>
+      </Placemark>
+      <Placemark id="1.3.2.6.2">
+          <name>Turn right onto Model Town Circular Rd</name>
+          <description>Turn right onto Model Town Circular Rd</description>
+          <LookAt>
+            <longitude>74.32132129999999</longitude>
+            <latitude>31.482459</latitude>
+            <altitude>0</altitude>
+            <heading>70.44427</heading>
+            <tilt>45</tilt>
+            <range>360</range>
+          </LookAt>
+          <styleUrl>#dir_step</styleUrl>
+          <Region>
+            <LatLonAltBox>
+                <north>31.582459</north>
+                <south>31.382459</south>
+                <east>74.42132129999999</east>
+                <west>74.2213213</west>
+                <minAltitude>0</minAltitude>
+                <maxAltitude>0</maxAltitude>
+                <altitudeMode>absolute</altitudeMode>
+            </LatLonAltBox>
+            <Lod>
+                <minLodPixels>512</minLodPixels>
+                <maxLodPixels>-1</maxLodPixels>
+                <minFadeExtent>0</minFadeExtent>
+                <maxFadeExtent>0</maxFadeExtent>
+            </Lod>
+          </Region>
+          <Point>
+            <coordinates>74.32132129999999,31.482459,0</coordinates>
+          </Point>
+      </Placemark>
+      <Placemark id="1.3.2">
+          <name>Route</name>
+          <styleUrl>#dir_route</styleUrl>
+          <LineString>
+            <coordinates>
+                74.2728273,31.4697247,0 74.2728273,31.4697247,0 74.2727769,31.469703,0 74.2727448,31.4697884,0 74.2727134,31.46987,0 74.27268290000001,31.4699594,0 74.2725688,31.4699434,0 74.2726,31.4698495,0 74.2727134,31.46987,0 74.27289450000001,31.4698998,0 74.27294500000001,31.4697754,0 74.2729851,31.4696276,0 74.2731443,31.4691175,0 74.2732845,31.4685774,0 74.27341149999999,31.4681185,0 74.2735215,31.4677676,0 74.2736936,31.4672384,0 74.2737711,31.4670132,0 74.27388689999999,31.4666672,0 74.2739425,31.4664688,0 74.2740129,31.4661795,0 74.27423210000001,31.4654658,0 74.2742755,31.4653338,0 74.2743079,31.4652279,0 74.2743342,31.4651441,0 74.2750563,31.4626705,0 74.27510479999999,31.4625275,0 74.2752012,31.4625524,0 74.27583319999999,31.4626538,0 74.27614560000001,31.4626691,0 74.2775075,31.4626915,0 74.27757990000001,31.462692,0 74.2778283,31.4626907,0 74.278362,31.4627251,0 74.2785232,31.462728,0 74.27927750000001,31.4627105,0 74.28088200000001,31.4626367,0 74.28126810000001,31.4626189,0 74.2814346,31.4625966,0 74.2818424,31.4625833,0 74.28235460000001,31.4625701,0 74.2825363,31.4625628,0 74.2826927,31.4625539,0 74.2828554,31.4625203,0 74.2829421,31.462494,0 74.28294579999999,31.4624958,0 74.2829502,31.4624979,0 74.2829546,31.4624997,0 74.28295919999999,31.4625014,0 74.2829638,31.4625029,0 74.2829685,31.4625042,0 74.28297329999999,31.4625054,0 74.28297809999999,31.4625064,0 74.282983,31.4625072,0 74.28298789999999,31.4625078,0 74.2829928,31.46250819999999,0 74.2829977,31.46250849999999,0 74.2830027,31.4625086,0 74.2830057,31.46250849999999,0 74.2830076,31.46250849999999,0 74.28301260000001,31.46250819999999,0 74.2830175,31.4625077,0 74.28302239999999,31.462507,0 74.2830273,31.4625062,0 74.2830321,31.4625052,0 74.2830368,31.462504,0 74.2830415,31.4625026,0 74.28304610000001,31.4625011,0 74.2830507,31.4624994,0 74.2830546,31.4624977,0 74.2830551,31.4624975,0 74.28305949999999,31.4624955,0 74.2830637,31.4624933,0 74.2830678,31.4624909,0 74.2830718,31.4624884,0 74.2830757,31.4624858,0 74.2830792,31.4624832,0 74.28307940000001,31.462483,0 74.283083,31.4624801,0 74.2830864,31.462477,0 74.2830897,31.4624738,0 74.28309280000001,31.4624706,0 74.2830958,31.4624671,0 74.28309849999999,31.4624636,0 74.2831011,31.46246,0 74.2831035,31.4624563,0 74.28310569999999,31.4624525,0 74.28310810000001,31.4624479,0 74.2831113,31.4624403,0 74.2831127,31.4624363,0 74.2831139,31.4624321,0 74.28311480000001,31.462428,0 74.2831156,31.4624238,0 74.2831161,31.4624196,0 74.28311650000001,31.4624154,0 74.2831166,31.4624112,0 74.28311650000001,31.4624069,0 74.28311619999999,31.4624027,0 74.2831156,31.4623985,0 74.2831149,31.4623943,0 74.2831139,31.4623902,0 74.2831128,31.4623861,0 74.2831114,31.462382,0 74.28310980000001,31.462378,0 74.28310810000001,31.4623741,0 74.2831061,31.4623702,0 74.2831039,31.4623664,0 74.2831015,31.4623627,0 74.28310140000001,31.4623626,0 74.28367729999999,31.4617976,0 74.2841318,31.46135629999999,0 74.2842299,31.4613119,0 74.2845544,31.4615601,0 74.2850462,31.4619289,0 74.2852913,31.4621132,0 74.2854751,31.4622407,0 74.28605039999999,31.4626283,0 74.2863359,31.462811,0 74.28663210000001,31.4629903,0 74.2871798,31.46330529999999,0 74.28744399999999,31.463451,0 74.2877177,31.4635954,0 74.28795359999999,31.4637159,0 74.2895268,31.4645565,0 74.29033990000001,31.4649863,0 74.2904401,31.465036,0 74.2945697,31.4672218,0 74.295466,31.4676954,0 74.29631790000001,31.4681456,0 74.29670040000001,31.4683564,0 74.2972845,31.4686674,0 74.2982568,31.469147,0 74.2990021,31.4694653,0 74.300326,31.4701734,0 74.3009802,31.47052040000001,0 74.3014599,31.4707749,0 74.30160720000001,31.4708591,0 74.3019884,31.4710628,0 74.3020018,31.4710703,0 74.30228719999999,31.47119319999999,0 74.3025238,31.4712828,0 74.302618,31.4713168,0 74.3026208,31.4713188,0 74.3027218,31.4713745,0 74.3027689,31.4714086,0 74.3028024,31.4714419,0 74.3028181,31.4714767,0 74.3028314,31.4715125,0 74.3028439,31.4715537,0 74.3028659,31.4716512,0 74.3028674,31.4716561,0 74.3027889,31.47201400000001,0 74.3026382,31.4725328,0 74.3025592,31.4728203,0 74.3023213,31.4735282,0 74.3019439,31.47466560000001,0 74.301897,31.4747738,0 74.3021102,31.4748192,0 74.3021986,31.4748488,0 74.30257589999999,31.4749769,0 74.30302210000001,31.4750944,0 74.3041418,31.4754406,0 74.3042564,31.4754903,0 74.3052414,31.4757652,0 74.3060277,31.4760076,0 74.3066439,31.476186,0 74.3071918,31.4763493,0 74.3073034,31.4763803,0 74.3084327,31.4766879,0 74.3087795,31.4767791,0 74.3088444,31.4768127,0 74.3086504,31.4773894,0 74.3085837,31.4775584,0 74.3085284,31.4777113,0 74.308491,31.4778201,0 74.308246,31.4784906,0 74.3083408,31.4785132,0 74.3090548,31.4787174,0 74.3096615,31.4789128,0 74.3100949,31.47905,0 74.3105006,31.479172,0 74.31067400000001,31.4792204,0 74.31167139999999,31.4794986,0 74.3117211,31.479516,0 74.3117882,31.4795382,0 74.3122594,31.4796978,0 74.3123452,31.4797269,0 74.3125575,31.4798008,0 74.3127709,31.4798641,0 74.3134922,31.4800855,0 74.31378340000001,31.4801668,0 74.3146825,31.4804447,0 74.3159453,31.4808294,0 74.3175176,31.4813222,0 74.31823919999999,31.4815394,0 74.3186388,31.4816464,0 74.32132129999999,31.482459,0 74.32139170000001,31.482504,0 74.3216204,31.48219810000001,0 74.3216694,31.4821225,0 74.3217337,31.4820386,0 74.3218002,31.4819564,0 74.3218949,31.4818533,0 74.32193890000001,31.48180320000001,0 74.3221135,31.4816232,0 74.3223076,31.4814363,0 74.32243149999999,31.4813266,0 74.3226274,31.4811668,0 74.3228172,31.4810305,0 74.32322910000001,31.4807676,0 74.32347900000001,31.4806674,0 74.3235677,31.4806323,0 74.3237938,31.4805528,0 74.3239533,31.48051,0 74.3239305,31.4804656,0 
+            </coordinates>
+          </LineString>
+      </Placemark>
+    </Folder>
+    <Folder id="1.4">
+      <name>Khayaban-e-Firdousi and Maulana Shaukat Ali Rd</name>
+      <visibility>0</visibility>
+      <Style id="dir_route">
+          <LineStyle>
+            <color>7fa00000</color>
+            <colorMode>normal</colorMode>
+            <width>6</width>
+          </LineStyle>
+      </Style>
+      <Placemark id="1.4.2.2.2">
+          <name>Head northwest on Main Blvd toward Main Blvd</name>
+          <visibility>0</visibility>
+          <description>Head northwest on Main Blvd toward Main Blvd</description>
+          <LookAt>
+            <longitude>74.2728273</longitude>
+            <latitude>31.4697247</latitude>
+            <altitude>0</altitude>
+            <heading>-71.98071</heading>
+            <tilt>45</tilt>
+            <range>360</range>
+          </LookAt>
+          <styleUrl>#dir_step</styleUrl>
+          <Region>
+            <LatLonAltBox>
+                <north>31.5697247</north>
+                <south>31.3697247</south>
+                <east>74.3728273</east>
+                <west>74.17282730000001</west>
+                <minAltitude>0</minAltitude>
+                <maxAltitude>0</maxAltitude>
+                <altitudeMode>absolute</altitudeMode>
+            </LatLonAltBox>
+            <Lod>
+                <minLodPixels>512</minLodPixels>
+                <maxLodPixels>-1</maxLodPixels>
+                <minFadeExtent>0</minFadeExtent>
+                <maxFadeExtent>0</maxFadeExtent>
+            </Lod>
+          </Region>
+          <Point>
+            <coordinates>74.2728273,31.46972469999999,0</coordinates>
+          </Point>
+      </Placemark>
+      <Placemark id="1.4.2.2.3">
+          <name>Turn left at Airlink Samsung PCSP onto Service Rd</name>
+          <visibility>0</visibility>
+          <description>Turn left at Airlink Samsung PCSP onto Service Rd</description>
+          <LookAt>
+            <longitude>74.27268289999999</longitude>
+            <latitude>31.4699594</latitude>
+            <altitude>0</altitude>
+            <heading>-17.161207</heading>
+            <tilt>45</tilt>
+            <range>360</range>
+          </LookAt>
+          <styleUrl>#dir_step</styleUrl>
+          <Region>
+            <LatLonAltBox>
+                <north>31.5699594</north>
+                <south>31.3699594</south>
+                <east>74.37268289999999</east>
+                <west>74.1726829</west>
+                <minAltitude>0</minAltitude>
+                <maxAltitude>0</maxAltitude>
+                <altitudeMode>absolute</altitudeMode>
+            </LatLonAltBox>
+            <Lod>
+                <minLodPixels>512</minLodPixels>
+                <maxLodPixels>-1</maxLodPixels>
+                <minFadeExtent>0</minFadeExtent>
+                <maxFadeExtent>0</maxFadeExtent>
+            </Lod>
+          </Region>
+          <Point>
+            <coordinates>74.27268289999999,31.4699594,0</coordinates>
+          </Point>
+      </Placemark>
+      <Placemark id="1.4.2.2.4">
+          <name>Turn left at Airlink Samsung PCSP onto Service Road</name>
+          <visibility>0</visibility>
+          <description>Turn left at Airlink Samsung PCSP onto Service Road</description>
+          <LookAt>
+            <longitude>74.2725688</longitude>
+            <latitude>31.4699434</latitude>
+            <altitude>0</altitude>
+            <heading>-99.336494</heading>
+            <tilt>45</tilt>
+            <range>360</range>
+          </LookAt>
+          <styleUrl>#dir_step</styleUrl>
+          <Region>
+            <LatLonAltBox>
+                <north>31.5699434</north>
+                <south>31.3699434</south>
+                <east>74.3725688</east>
+                <west>74.17256880000001</west>
+                <minAltitude>0</minAltitude>
+                <maxAltitude>0</maxAltitude>
+                <altitudeMode>absolute</altitudeMode>
+            </LatLonAltBox>
+            <Lod>
+                <minLodPixels>512</minLodPixels>
+                <maxLodPixels>-1</maxLodPixels>
+                <minFadeExtent>0</minFadeExtent>
+                <maxFadeExtent>0</maxFadeExtent>
+            </Lod>
+          </Region>
+          <Point>
+            <coordinates>74.2725688,31.4699434,0</coordinates>
+          </Point>
+      </Placemark>
+      <Placemark id="1.4.2.2.5">
+          <name>Turn left at KMU Head Office Lahore onto Abdul Haque Rd</name>
+          <visibility>0</visibility>
+          <description>Turn left at KMU Head Office Lahore onto Abdul Haque Rd</description>
+          <LookAt>
+            <longitude>74.2726</longitude>
+            <latitude>31.4698495</latitude>
+            <altitude>0</altitude>
+            <heading>164.17746</heading>
+            <tilt>45</tilt>
+            <range>360</range>
+          </LookAt>
+          <styleUrl>#dir_step</styleUrl>
+          <Region>
+            <LatLonAltBox>
+                <north>31.5698495</north>
+                <south>31.3698495</south>
+                <east>74.37259999999999</east>
+                <west>74.1726</west>
+                <minAltitude>0</minAltitude>
+                <maxAltitude>0</maxAltitude>
+                <altitudeMode>absolute</altitudeMode>
+            </LatLonAltBox>
+            <Lod>
+                <minLodPixels>512</minLodPixels>
+                <maxLodPixels>-1</maxLodPixels>
+                <minFadeExtent>0</minFadeExtent>
+                <maxFadeExtent>0</maxFadeExtent>
+            </Lod>
+          </Region>
+          <Point>
+            <coordinates>74.2726,31.4698495,0</coordinates>
+          </Point>
+      </Placemark>
+      <Placemark id="1.4.2.2.6">
+          <name>Turn right at Khokhar Chowk onto Main Blvd</name>
+          <visibility>0</visibility>
+          <description>Turn right at Khokhar Chowk onto Main Blvd</description>
+          <LookAt>
+            <longitude>74.2727134</longitude>
+            <latitude>31.46987</latitude>
+            <altitude>0</altitude>
+            <heading>78.03321</heading>
+            <tilt>45</tilt>
+            <range>360</range>
+          </LookAt>
+          <styleUrl>#dir_step</styleUrl>
+          <Region>
+            <LatLonAltBox>
+                <north>31.56987000000001</north>
+                <south>31.36987</south>
+                <east>74.37271339999999</east>
+                <west>74.17271340000001</west>
+                <minAltitude>0</minAltitude>
+                <maxAltitude>0</maxAltitude>
+                <altitudeMode>absolute</altitudeMode>
+            </LatLonAltBox>
+            <Lod>
+                <minLodPixels>512</minLodPixels>
+                <maxLodPixels>-1</maxLodPixels>
+                <minFadeExtent>0</minFadeExtent>
+                <maxFadeExtent>0</maxFadeExtent>
+            </Lod>
+          </Region>
+          <Point>
+            <coordinates>74.2727134,31.46987,0</coordinates>
+          </Point>
+      </Placemark>
+      <Placemark id="1.4.2.3.2">
+          <name>Turn left</name>
+          <visibility>0</visibility>
+          <description>Turn left</description>
+          <LookAt>
+            <longitude>74.27510479999999</longitude>
+            <latitude>31.4625275</latitude>
+            <altitude>0</altitude>
+            <heading>164.23703</heading>
+            <tilt>45</tilt>
+            <range>360</range>
+          </LookAt>
+          <styleUrl>#dir_step</styleUrl>
+          <Region>
+            <LatLonAltBox>
+                <north>31.56252750000001</north>
+                <south>31.3625275</south>
+                <east>74.37510479999999</east>
+                <west>74.1751048</west>
+                <minAltitude>0</minAltitude>
+                <maxAltitude>0</maxAltitude>
+                <altitudeMode>absolute</altitudeMode>
+            </LatLonAltBox>
+            <Lod>
+                <minLodPixels>512</minLodPixels>
+                <maxLodPixels>-1</maxLodPixels>
+                <minFadeExtent>0</minFadeExtent>
+                <maxFadeExtent>0</maxFadeExtent>
+            </Lod>
+          </Region>
+          <Point>
+            <coordinates>74.27510479999999,31.4625275,0</coordinates>
+          </Point>
+      </Placemark>
+      <Placemark id="1.4.2.3.3">
+          <name>At the roundabout, take the 2nd exit</name>
+          <visibility>0</visibility>
+          <description>At the roundabout, take the 2nd exit</description>
+          <LookAt>
+            <longitude>74.2829421</longitude>
+            <latitude>31.462494</latitude>
+            <altitude>0</altitude>
+            <heading>106.211876</heading>
+            <tilt>45</tilt>
+            <range>360</range>
+          </LookAt>
+          <styleUrl>#dir_step</styleUrl>
+          <Region>
+            <LatLonAltBox>
+                <north>31.562494</north>
+                <south>31.36249399999999</south>
+                <east>74.38294209999999</east>
+                <west>74.18294210000001</west>
+                <minAltitude>0</minAltitude>
+                <maxAltitude>0</maxAltitude>
+                <altitudeMode>absolute</altitudeMode>
+            </LatLonAltBox>
+            <Lod>
+                <minLodPixels>512</minLodPixels>
+                <maxLodPixels>-1</maxLodPixels>
+                <minFadeExtent>0</minFadeExtent>
+                <maxFadeExtent>0</maxFadeExtent>
+            </Lod>
+          </Region>
+          <Point>
+            <coordinates>74.2829421,31.462494,0</coordinates>
+          </Point>
+      </Placemark>
+      <Placemark id="1.4.2.4.2">
+          <name>Turn left onto Khayaban-e-Firdousi</name>
+          <visibility>0</visibility>
+          <description>Turn left onto Khayaban-e-Firdousi</description>
+          <LookAt>
+            <longitude>74.2842299</longitude>
+            <latitude>31.4613119</latitude>
+            <altitude>0</altitude>
+            <heading>127.77302</heading>
+            <tilt>45</tilt>
+            <range>360</range>
+          </LookAt>
+          <styleUrl>#dir_step</styleUrl>
+          <Region>
+            <LatLonAltBox>
+                <north>31.5613119</north>
+                <south>31.3613119</south>
+                <east>74.38422989999999</east>
+                <west>74.18422990000001</west>
+                <minAltitude>0</minAltitude>
+                <maxAltitude>0</maxAltitude>
+                <altitudeMode>absolute</altitudeMode>
+            </LatLonAltBox>
+            <Lod>
+                <minLodPixels>512</minLodPixels>
+                <maxLodPixels>-1</maxLodPixels>
+                <minFadeExtent>0</minFadeExtent>
+                <maxFadeExtent>0</maxFadeExtent>
+            </Lod>
+          </Region>
+          <Point>
+            <coordinates>74.2842299,31.4613119,0</coordinates>
+          </Point>
+      </Placemark>
+      <Placemark id="1.4.2.4.3">
+          <name>Continue straight to stay on Khayaban-e-Firdousi</name>
+          <visibility>0</visibility>
+          <description>Continue straight to stay on Khayaban-e-Firdousi</description>
+          <LookAt>
+            <longitude>74.29825679999999</longitude>
+            <latitude>31.469147</latitude>
+            <altitude>0</altitude>
+            <heading>59.958263</heading>
+            <tilt>45</tilt>
+            <range>360</range>
+          </LookAt>
+          <styleUrl>#dir_step</styleUrl>
+          <Region>
+            <LatLonAltBox>
+                <north>31.569147</north>
+                <south>31.369147</south>
+                <east>74.39825679999998</east>
+                <west>74.1982568</west>
+                <minAltitude>0</minAltitude>
+                <maxAltitude>0</maxAltitude>
+                <altitudeMode>absolute</altitudeMode>
+            </LatLonAltBox>
+            <Lod>
+                <minLodPixels>512</minLodPixels>
+                <maxLodPixels>-1</maxLodPixels>
+                <minFadeExtent>0</minFadeExtent>
+                <maxFadeExtent>0</maxFadeExtent>
+            </Lod>
+          </Region>
+          <Point>
+            <coordinates>74.29825679999999,31.469147,0</coordinates>
+          </Point>
+      </Placemark>
+      <Placemark id="1.4.2.4.4">
+          <name>Slight right onto Maulana Shaukat Ali Rd</name>
+          <visibility>0</visibility>
+          <description>Slight right onto Maulana Shaukat Ali Rd</description>
+          <LookAt>
+            <longitude>74.30327439999999</longitude>
+            <latitude>31.4711987</latitude>
+            <altitude>0</altitude>
+            <heading>132.33934</heading>
+            <tilt>45</tilt>
+            <range>360</range>
+          </LookAt>
+          <styleUrl>#dir_step</styleUrl>
+          <Region>
+            <LatLonAltBox>
+                <north>31.5711987</north>
+                <south>31.3711987</south>
+                <east>74.40327439999999</east>
+                <west>74.2032744</west>
+                <minAltitude>0</minAltitude>
+                <maxAltitude>0</maxAltitude>
+                <altitudeMode>absolute</altitudeMode>
+            </LatLonAltBox>
+            <Lod>
+                <minLodPixels>512</minLodPixels>
+                <maxLodPixels>-1</maxLodPixels>
+                <minFadeExtent>0</minFadeExtent>
+                <maxFadeExtent>0</maxFadeExtent>
+            </Lod>
+          </Region>
+          <Point>
+            <coordinates>74.30327439999999,31.4711987,0</coordinates>
+          </Point>
+      </Placemark>
+      <Placemark id="1.4.2.5.2">
+          <name>Turn left at epetstore.pk onto Model Town Link Rd</name>
+          <visibility>0</visibility>
+          <description>Turn left at epetstore.pk onto Model Town Link Rd</description>
+          <LookAt>
+            <longitude>74.3145171</longitude>
+            <latitude>31.4647936</latitude>
+            <altitude>0</altitude>
+            <heading>115.762665</heading>
+            <tilt>45</tilt>
+            <range>360</range>
+          </LookAt>
+          <styleUrl>#dir_step</styleUrl>
+          <Region>
+            <LatLonAltBox>
+                <north>31.5647936</north>
+                <south>31.3647936</south>
+                <east>74.4145171</east>
+                <west>74.21451710000001</west>
+                <minAltitude>0</minAltitude>
+                <maxAltitude>0</maxAltitude>
+                <altitudeMode>absolute</altitudeMode>
+            </LatLonAltBox>
+            <Lod>
+                <minLodPixels>512</minLodPixels>
+                <maxLodPixels>-1</maxLodPixels>
+                <minFadeExtent>0</minFadeExtent>
+                <maxFadeExtent>0</maxFadeExtent>
+            </Lod>
+          </Region>
+          <Point>
+            <coordinates>74.3145171,31.4647936,0</coordinates>
+          </Point>
+      </Placemark>
+      <Placemark id="1.4.2.6.2">
+          <name>At the roundabout, continue straight onto Model Town Link Road</name>
+          <visibility>0</visibility>
+          <description>At the roundabout, continue straight onto Model Town Link Road</description>
+          <LookAt>
+            <longitude>74.3199965</longitude>
+            <latitude>31.4734881</latitude>
+            <altitude>0</altitude>
+            <heading>13.106545</heading>
+            <tilt>45</tilt>
+            <range>360</range>
+          </LookAt>
+          <styleUrl>#dir_step</styleUrl>
+          <Region>
+            <LatLonAltBox>
+                <north>31.5734881</north>
+                <south>31.3734881</south>
+                <east>74.4199965</east>
+                <west>74.21999650000001</west>
+                <minAltitude>0</minAltitude>
+                <maxAltitude>0</maxAltitude>
+                <altitudeMode>absolute</altitudeMode>
+            </LatLonAltBox>
+            <Lod>
+                <minLodPixels>512</minLodPixels>
+                <maxLodPixels>-1</maxLodPixels>
+                <minFadeExtent>0</minFadeExtent>
+                <maxFadeExtent>0</maxFadeExtent>
+            </Lod>
+          </Region>
+          <Point>
+            <coordinates>74.3199965,31.4734881,0</coordinates>
+          </Point>
+      </Placemark>
+      <Placemark id="1.4.2">
+          <name>Route</name>
+          <visibility>0</visibility>
+          <styleUrl>#dir_route</styleUrl>
+          <LineString>
+            <coordinates>
+                74.2728273,31.4697247,0 74.2728273,31.4697247,0 74.2727769,31.469703,0 74.2727448,31.4697884,0 74.2727134,31.46987,0 74.27268290000001,31.4699594,0 74.2725688,31.4699434,0 74.2726,31.4698495,0 74.2727134,31.46987,0 74.27289450000001,31.4698998,0 74.27294500000001,31.4697754,0 74.2729851,31.4696276,0 74.2731443,31.4691175,0 74.2732845,31.4685774,0 74.27341149999999,31.4681185,0 74.2735215,31.4677676,0 74.2736936,31.4672384,0 74.2737711,31.4670132,0 74.27388689999999,31.4666672,0 74.2739425,31.4664688,0 74.2740129,31.4661795,0 74.27423210000001,31.4654658,0 74.2742755,31.4653338,0 74.2743079,31.4652279,0 74.2743342,31.4651441,0 74.2750563,31.4626705,0 74.27510479999999,31.4625275,0 74.2752012,31.4625524,0 74.27583319999999,31.4626538,0 74.27614560000001,31.4626691,0 74.2775075,31.4626915,0 74.27757990000001,31.462692,0 74.2778283,31.4626907,0 74.278362,31.4627251,0 74.2785232,31.462728,0 74.27927750000001,31.4627105,0 74.28088200000001,31.4626367,0 74.28126810000001,31.4626189,0 74.2814346,31.4625966,0 74.2818424,31.4625833,0 74.28235460000001,31.4625701,0 74.2825363,31.4625628,0 74.2826927,31.4625539,0 74.2828554,31.4625203,0 74.2829421,31.462494,0 74.28294579999999,31.4624958,0 74.2829502,31.4624979,0 74.2829546,31.4624997,0 74.28295919999999,31.4625014,0 74.2829638,31.4625029,0 74.2829685,31.4625042,0 74.28297329999999,31.4625054,0 74.28297809999999,31.4625064,0 74.282983,31.4625072,0 74.28298789999999,31.4625078,0 74.2829928,31.46250819999999,0 74.2829977,31.46250849999999,0 74.2830027,31.4625086,0 74.2830057,31.46250849999999,0 74.2830076,31.46250849999999,0 74.28301260000001,31.46250819999999,0 74.2830175,31.4625077,0 74.28302239999999,31.462507,0 74.2830273,31.4625062,0 74.2830321,31.4625052,0 74.2830368,31.462504,0 74.2830415,31.4625026,0 74.28304610000001,31.4625011,0 74.2830507,31.4624994,0 74.2830546,31.4624977,0 74.2830551,31.4624975,0 74.28305949999999,31.4624955,0 74.2830637,31.4624933,0 74.2830678,31.4624909,0 74.2830718,31.4624884,0 74.2830757,31.4624858,0 74.2830792,31.4624832,0 74.28307940000001,31.462483,0 74.283083,31.4624801,0 74.2830864,31.462477,0 74.2830897,31.4624738,0 74.28309280000001,31.4624706,0 74.2830958,31.4624671,0 74.28309849999999,31.4624636,0 74.2831011,31.46246,0 74.2831035,31.4624563,0 74.28310569999999,31.4624525,0 74.28310810000001,31.4624479,0 74.2831113,31.4624403,0 74.2831127,31.4624363,0 74.2831139,31.4624321,0 74.28311480000001,31.462428,0 74.2831156,31.4624238,0 74.2831161,31.4624196,0 74.28311650000001,31.4624154,0 74.2831166,31.4624112,0 74.28311650000001,31.4624069,0 74.28311619999999,31.4624027,0 74.2831156,31.4623985,0 74.2831149,31.4623943,0 74.2831139,31.4623902,0 74.2831128,31.4623861,0 74.2831114,31.462382,0 74.28310980000001,31.462378,0 74.28310810000001,31.4623741,0 74.2831061,31.4623702,0 74.2831039,31.4623664,0 74.2831015,31.4623627,0 74.28310140000001,31.4623626,0 74.28367729999999,31.4617976,0 74.2841318,31.46135629999999,0 74.2842299,31.4613119,0 74.2845544,31.4615601,0 74.2850462,31.4619289,0 74.2852913,31.4621132,0 74.2854751,31.4622407,0 74.28605039999999,31.4626283,0 74.2863359,31.462811,0 74.28663210000001,31.4629903,0 74.2871798,31.46330529999999,0 74.28744399999999,31.463451,0 74.2877177,31.4635954,0 74.28795359999999,31.4637159,0 74.2895268,31.4645565,0 74.29033990000001,31.4649863,0 74.2904401,31.465036,0 74.2945697,31.4672218,0 74.295466,31.4676954,0 74.29631790000001,31.4681456,0 74.29670040000001,31.4683564,0 74.2972845,31.4686674,0 74.2982568,31.469147,0 74.2990021,31.4694653,0 74.300326,31.4701734,0 74.3009802,31.47052040000001,0 74.3014599,31.4707749,0 74.30160720000001,31.4708591,0 74.3019884,31.4710628,0 74.3020018,31.4710703,0 74.30228719999999,31.47119319999999,0 74.3025238,31.4712828,0 74.302618,31.4713168,0 74.3026431,31.4713249,0 74.3027343,31.4713398,0 74.3029658,31.4714057,0 74.3030967,31.4713368,0 74.30327440000001,31.4711987,0 74.30364040000001,31.4701605,0 74.30365759999999,31.4701095,0 74.3037605,31.4698304,0 74.3038213,31.4696952,0 74.30398529999999,31.4693727,0 74.3040438,31.4692686,0 74.3041159,31.4691719,0 74.3042119,31.4690728,0 74.30432879999999,31.4689686,0 74.30444,31.4688725,0 74.3045848,31.4687548,0 74.3047327,31.4686453,0 74.3048256,31.4685802,0 74.3049281,31.4685214,0 74.30501839999999,31.4684775,0 74.3051316,31.4684301,0 74.305374,31.4683313,0 74.30571810000001,31.4682014,0 74.3064284,31.46793,0 74.3066973,31.4678325,0 74.3068612,31.4677719,0 74.3070474,31.4677158,0 74.30715979999999,31.4676705,0 74.3073916,31.4675581,0 74.3081172,31.4672775,0 74.3089301,31.4669678,0 74.3102004,31.4664837,0 74.3109609,31.4661724,0 74.31187009999999,31.46580030000001,0 74.3121184,31.4657091,0 74.3129126,31.4653996,0 74.3144362,31.4648311,0 74.314509,31.4647973,0 74.3145171,31.4647936,0 74.31474969999999,31.4647842,0 74.31485600000001,31.4647652,0 74.314932,31.4647563,0 74.3149626,31.4647534,0 74.3149899,31.4647552,0 74.31501040000001,31.4647565,0 74.31502519999999,31.4647617,0 74.3150371,31.4647662,0 74.31505009999999,31.4647742,0 74.31507070000001,31.4647884,0 74.31518029999999,31.4647993,0 74.3154933,31.4653744,0 74.31588410000001,31.4660708,0 74.31626009999999,31.4667148,0 74.3166909,31.4674526,0 74.3167385,31.46755,0 74.3169577,31.4680642,0 74.3171152,31.4684014,0 74.3172733,31.4687028,0 74.31741719999999,31.4689263,0 74.317556,31.4691543,0 74.3177522,31.4694756,0 74.31780879999999,31.4695618,0 74.31788760000001,31.4697063,0 74.3179667,31.4698496,0 74.318122,31.4701166,0 74.3181767,31.4702091,0 74.3182942,31.4704126,0 74.318573,31.4708409,0 74.3186158,31.4709166,0 74.31864539999999,31.4709591,0 74.318704,31.4710423,0 74.3189735,31.47151,0 74.3190829,31.4717172,0 74.3192217,31.4719871,0 74.3193806,31.472327,0 74.31940729999999,31.4723838,0 74.3194204,31.4724144,0 74.3194391,31.4724578,0 74.3195224,31.4726177,0 74.3196016,31.4727504,0 74.31988,31.4731909,0 74.319964,31.4733411,0 74.31998470000001,31.47339970000001,0 74.31999450000001,31.4734421,0 74.3199965,31.4734881,0 74.3199948,31.4734928,0 74.31999329999999,31.47349669999999,0 74.319992,31.4735007,0 74.3199908,31.4735047,0 74.3199899,31.4735088,0 74.31998919999999,31.47351280000001,0 74.3199887,31.473517,0 74.3199884,31.4735211,0 74.3199887,31.4735248,0 74.3199888,31.4735339,0 74.3199951,31.4735581,0 74.3200085,31.47358,0 74.3200279,31.4735984,0 74.32005239999999,31.473612,0 74.3200559,31.4736134,0 74.32005959999999,31.4736147,0 74.3200635,31.4736159,0 74.32006730000001,31.473617,0 74.3200712,31.473618,0 74.3200751,31.4736189,0 74.3200791,31.4736196,0 74.32008380000001,31.4736207,0 74.32028579999999,31.4738816,0 74.32049859999999,31.4743167,0 74.3206066,31.4745157,0 74.3209536,31.4751146,0 74.32114300000001,31.4754248,0 74.3213291,31.4757568,0 74.3213712,31.4758631,0 74.3214428,31.4760353,0 74.3215673,31.4762655,0 74.3218104,31.4766799,0 74.3222313,31.4774112,0 74.3228127,31.4784313,0 74.3231796,31.4790968,0 74.32365160000001,31.4799409,0 74.3238049,31.480234,0 74.3239083,31.4804222,0 74.3239305,31.4804656,0 
+            </coordinates>
+          </LineString>
+      </Placemark>
+    </Folder>
+    <Folder id="1.5">
+      <name>Usmani Rd</name>
+      <visibility>0</visibility>
+      <Style id="dir_route">
+          <LineStyle>
+            <color>7fa00000</color>
+            <colorMode>normal</colorMode>
+            <width>6</width>
+          </LineStyle>
+      </Style>
+      <Placemark id="1.5.2.2.2">
+          <name>Head northwest on Main Blvd toward Main Blvd</name>
+          <visibility>0</visibility>
+          <description>Head northwest on Main Blvd toward Main Blvd</description>
+          <LookAt>
+            <longitude>74.2728273</longitude>
+            <latitude>31.4697247</latitude>
+            <altitude>0</altitude>
+            <heading>-71.98071</heading>
+            <tilt>45</tilt>
+            <range>360</range>
+          </LookAt>
+          <styleUrl>#dir_step</styleUrl>
+          <Region>
+            <LatLonAltBox>
+                <north>31.5697247</north>
+                <south>31.3697247</south>
+                <east>74.3728273</east>
+                <west>74.17282730000001</west>
+                <minAltitude>0</minAltitude>
+                <maxAltitude>0</maxAltitude>
+                <altitudeMode>absolute</altitudeMode>
+            </LatLonAltBox>
+            <Lod>
+                <minLodPixels>512</minLodPixels>
+                <maxLodPixels>-1</maxLodPixels>
+                <minFadeExtent>0</minFadeExtent>
+                <maxFadeExtent>0</maxFadeExtent>
+            </Lod>
+          </Region>
+          <Point>
+            <coordinates>74.2728273,31.46972469999999,0</coordinates>
+          </Point>
+      </Placemark>
+      <Placemark id="1.5.2.2.3">
+          <name>Turn right at Airlink Samsung PCSP onto Service Rd</name>
+          <visibility>0</visibility>
+          <description>Turn right at Airlink Samsung PCSP onto Service Rd</description>
+          <LookAt>
+            <longitude>74.27268289999999</longitude>
+            <latitude>31.4699594</latitude>
+            <altitude>0</altitude>
+            <heading>-17.161207</heading>
+            <tilt>45</tilt>
+            <range>360</range>
+          </LookAt>
+          <styleUrl>#dir_step</styleUrl>
+          <Region>
+            <LatLonAltBox>
+                <north>31.5699594</north>
+                <south>31.3699594</south>
+                <east>74.37268289999999</east>
+                <west>74.1726829</west>
+                <minAltitude>0</minAltitude>
+                <maxAltitude>0</maxAltitude>
+                <altitudeMode>absolute</altitudeMode>
+            </LatLonAltBox>
+            <Lod>
+                <minLodPixels>512</minLodPixels>
+                <maxLodPixels>-1</maxLodPixels>
+                <minFadeExtent>0</minFadeExtent>
+                <maxFadeExtent>0</maxFadeExtent>
+            </Lod>
+          </Region>
+          <Point>
+            <coordinates>74.27268289999999,31.4699594,0</coordinates>
+          </Point>
+      </Placemark>
+      <Placemark id="1.5.2.2.4">
+          <name>Turn right at Tea stall toward Abdul Haque Rd</name>
+          <visibility>0</visibility>
+          <description>Turn right at Tea stall toward Abdul Haque Rd</description>
+          <LookAt>
+            <longitude>74.2750173</longitude>
+            <latitude>31.4704837</latitude>
+            <altitude>0</altitude>
+            <heading>73.40949999999999</heading>
+            <tilt>45</tilt>
+            <range>360</range>
+          </LookAt>
+          <styleUrl>#dir_step</styleUrl>
+          <Region>
+            <LatLonAltBox>
+                <north>31.5704837</north>
+                <south>31.3704837</south>
+                <east>74.3750173</east>
+                <west>74.17501730000001</west>
+                <minAltitude>0</minAltitude>
+                <maxAltitude>0</maxAltitude>
+                <altitudeMode>absolute</altitudeMode>
+            </LatLonAltBox>
+            <Lod>
+                <minLodPixels>512</minLodPixels>
+                <maxLodPixels>-1</maxLodPixels>
+                <minFadeExtent>0</minFadeExtent>
+                <maxFadeExtent>0</maxFadeExtent>
+            </Lod>
+          </Region>
+          <Point>
+            <coordinates>74.2750173,31.47048370000001,0</coordinates>
+          </Point>
+      </Placemark>
+      <Placemark id="1.5.2.2.5">
+          <name>Turn left onto Abdul Haque Rd</name>
+          <visibility>0</visibility>
+          <description>Turn left onto Abdul Haque Rd</description>
+          <LookAt>
+            <longitude>74.27504519999999</longitude>
+            <latitude>31.4703945</latitude>
+            <altitude>0</altitude>
+            <heading>165.06288</heading>
+            <tilt>45</tilt>
+            <range>360</range>
+          </LookAt>
+          <styleUrl>#dir_step</styleUrl>
+          <Region>
+            <LatLonAltBox>
+                <north>31.5703945</north>
+                <south>31.3703945</south>
+                <east>74.37504519999999</east>
+                <west>74.1750452</west>
+                <minAltitude>0</minAltitude>
+                <maxAltitude>0</maxAltitude>
+                <altitudeMode>absolute</altitudeMode>
+            </LatLonAltBox>
+            <Lod>
+                <minLodPixels>512</minLodPixels>
+                <maxLodPixels>-1</maxLodPixels>
+                <minFadeExtent>0</minFadeExtent>
+                <maxFadeExtent>0</maxFadeExtent>
+            </Lod>
+          </Region>
+          <Point>
+            <coordinates>74.27504519999999,31.4703945,0</coordinates>
+          </Point>
+      </Placemark>
+      <Placemark id="1.5.2.2.6">
+          <name>Merge onto Canal Rd</name>
+          <visibility>0</visibility>
+          <description>Merge onto Canal Rd</description>
+          <LookAt>
+            <longitude>74.281204</longitude>
+            <latitude>31.481061</latitude>
+            <altitude>0</altitude>
+            <heading>52.64049</heading>
+            <tilt>45</tilt>
+            <range>360</range>
+          </LookAt>
+          <styleUrl>#dir_step</styleUrl>
+          <Region>
+            <LatLonAltBox>
+                <north>31.581061</north>
+                <south>31.381061</south>
+                <east>74.381204</east>
+                <west>74.18120400000001</west>
+                <minAltitude>0</minAltitude>
+                <maxAltitude>0</maxAltitude>
+                <altitudeMode>absolute</altitudeMode>
+            </LatLonAltBox>
+            <Lod>
+                <minLodPixels>512</minLodPixels>
+                <maxLodPixels>-1</maxLodPixels>
+                <minFadeExtent>0</minFadeExtent>
+                <maxFadeExtent>0</maxFadeExtent>
+            </Lod>
+          </Region>
+          <Point>
+            <coordinates>74.281204,31.48106099999999,0</coordinates>
+          </Point>
+      </Placemark>
+      <Placemark id="1.5.2.2.7">
+          <name>Turn left to merge onto Maulana Shaukat Ali Rd</name>
+          <visibility>0</visibility>
+          <description>Turn left to merge onto Maulana Shaukat Ali Rd</description>
+          <LookAt>
+            <longitude>74.29056199999999</longitude>
+            <latitude>31.4855041</latitude>
+            <altitude>0</altitude>
+            <heading>55.505013</heading>
+            <tilt>45</tilt>
+            <range>360</range>
+          </LookAt>
+          <styleUrl>#dir_step</styleUrl>
+          <Region>
+            <LatLonAltBox>
+                <north>31.5855041</north>
+                <south>31.3855041</south>
+                <east>74.39056199999999</east>
+                <west>74.190562</west>
+                <minAltitude>0</minAltitude>
+                <maxAltitude>0</maxAltitude>
+                <altitudeMode>absolute</altitudeMode>
+            </LatLonAltBox>
+            <Lod>
+                <minLodPixels>512</minLodPixels>
+                <maxLodPixels>-1</maxLodPixels>
+                <minFadeExtent>0</minFadeExtent>
+                <maxFadeExtent>0</maxFadeExtent>
+            </Lod>
+          </Region>
+          <Point>
+            <coordinates>74.29056199999999,31.4855041,0</coordinates>
+          </Point>
+      </Placemark>
+      <Placemark id="1.5.2.2.8">
+          <name>Make a U-turn</name>
+          <visibility>0</visibility>
+          <description>Make a U-turn</description>
+          <LookAt>
+            <longitude>74.29083679999999</longitude>
+            <latitude>31.4892455</latitude>
+            <altitude>0</altitude>
+            <heading>-44.05175</heading>
+            <tilt>45</tilt>
+            <range>360</range>
+          </LookAt>
+          <styleUrl>#dir_step</styleUrl>
+          <Region>
+            <LatLonAltBox>
+                <north>31.5892455</north>
+                <south>31.3892455</south>
+                <east>74.39083679999999</east>
+                <west>74.1908368</west>
+                <minAltitude>0</minAltitude>
+                <maxAltitude>0</maxAltitude>
+                <altitudeMode>absolute</altitudeMode>
+            </LatLonAltBox>
+            <Lod>
+                <minLodPixels>512</minLodPixels>
+                <maxLodPixels>-1</maxLodPixels>
+                <minFadeExtent>0</minFadeExtent>
+                <maxFadeExtent>0</maxFadeExtent>
+            </Lod>
+          </Region>
+          <Point>
+            <coordinates>74.29083679999999,31.4892455,0</coordinates>
+          </Point>
+      </Placemark>
+      <Placemark id="1.5.2.2.9">
+          <name>Turn left onto Usmani Rd</name>
+          <visibility>0</visibility>
+          <description>Turn left onto Usmani Rd</description>
+          <LookAt>
+            <longitude>74.2968664</longitude>
+            <latitude>31.4831516</latitude>
+            <altitude>0</altitude>
+            <heading>140.64253</heading>
+            <tilt>45</tilt>
+            <range>360</range>
+          </LookAt>
+          <styleUrl>#dir_step</styleUrl>
+          <Region>
+            <LatLonAltBox>
+                <north>31.5831516</north>
+                <south>31.3831516</south>
+                <east>74.39686639999999</east>
+                <west>74.1968664</west>
+                <minAltitude>0</minAltitude>
+                <maxAltitude>0</maxAltitude>
+                <altitudeMode>absolute</altitudeMode>
+            </LatLonAltBox>
+            <Lod>
+                <minLodPixels>512</minLodPixels>
+                <maxLodPixels>-1</maxLodPixels>
+                <minFadeExtent>0</minFadeExtent>
+                <maxFadeExtent>0</maxFadeExtent>
+            </Lod>
+          </Region>
+          <Point>
+            <coordinates>74.2968664,31.4831516,0</coordinates>
+          </Point>
+      </Placemark>
+      <Placemark id="1.5.2.2.10">
+          <name>Keep left to stay on Usmani Rd</name>
+          <visibility>0</visibility>
+          <description>Keep left to stay on Usmani Rd</description>
+          <LookAt>
+            <longitude>74.30433379999999</longitude>
+            <latitude>31.4867647</latitude>
+            <altitude>0</altitude>
+            <heading>52.55819</heading>
+            <tilt>45</tilt>
+            <range>360</range>
+          </LookAt>
+          <styleUrl>#dir_step</styleUrl>
+          <Region>
+            <LatLonAltBox>
+                <north>31.5867647</north>
+                <south>31.3867647</south>
+                <east>74.40433379999999</east>
+                <west>74.2043338</west>
+                <minAltitude>0</minAltitude>
+                <maxAltitude>0</maxAltitude>
+                <altitudeMode>absolute</altitudeMode>
+            </LatLonAltBox>
+            <Lod>
+                <minLodPixels>512</minLodPixels>
+                <maxLodPixels>-1</maxLodPixels>
+                <minFadeExtent>0</minFadeExtent>
+                <maxFadeExtent>0</maxFadeExtent>
+            </Lod>
+          </Region>
+          <Point>
+            <coordinates>74.30433379999999,31.4867647,0</coordinates>
+          </Point>
+      </Placemark>
+      <Placemark id="1.5.2.2.11">
+          <name>Turn right at Marian stop onto Major Shoaib (Shaheed) Road</name>
+          <visibility>0</visibility>
+          <description>Turn right at Marian stop onto Major Shoaib (Shaheed) Road</description>
+          <LookAt>
+            <longitude>74.30921359999999</longitude>
+            <latitude>31.4916731</latitude>
+            <altitude>0</altitude>
+            <heading>42.84443</heading>
+            <tilt>45</tilt>
+            <range>360</range>
+          </LookAt>
+          <styleUrl>#dir_step</styleUrl>
+          <Region>
+            <LatLonAltBox>
+                <north>31.5916731</north>
+                <south>31.39167309999999</south>
+                <east>74.40921359999999</east>
+                <west>74.2092136</west>
+                <minAltitude>0</minAltitude>
+                <maxAltitude>0</maxAltitude>
+                <altitudeMode>absolute</altitudeMode>
+            </LatLonAltBox>
+            <Lod>
+                <minLodPixels>512</minLodPixels>
+                <maxLodPixels>-1</maxLodPixels>
+                <minFadeExtent>0</minFadeExtent>
+                <maxFadeExtent>0</maxFadeExtent>
+            </Lod>
+          </Region>
+          <Point>
+            <coordinates>74.30921359999999,31.4916731,0</coordinates>
+          </Point>
+      </Placemark>
+      <Placemark id="1.5.2.2.12">
+          <name>At the roundabout, take the 2nd exit</name>
+          <visibility>0</visibility>
+          <description>At the roundabout, take the 2nd exit</description>
+          <LookAt>
+            <longitude>74.31210659999999</longitude>
+            <latitude>31.4904903</latitude>
+            <altitude>0</altitude>
+            <heading>94.83367</heading>
+            <tilt>45</tilt>
+            <range>360</range>
+          </LookAt>
+          <styleUrl>#dir_step</styleUrl>
+          <Region>
+            <LatLonAltBox>
+                <north>31.5904903</north>
+                <south>31.3904903</south>
+                <east>74.41210659999999</east>
+                <west>74.2121066</west>
+                <minAltitude>0</minAltitude>
+                <maxAltitude>0</maxAltitude>
+                <altitudeMode>absolute</altitudeMode>
+            </LatLonAltBox>
+            <Lod>
+                <minLodPixels>512</minLodPixels>
+                <maxLodPixels>-1</maxLodPixels>
+                <minFadeExtent>0</minFadeExtent>
+                <maxFadeExtent>0</maxFadeExtent>
+            </Lod>
+          </Region>
+          <Point>
+            <coordinates>74.31210659999999,31.4904903,0</coordinates>
+          </Point>
+      </Placemark>
+      <Placemark id="1.5.2.2.13">
+          <name>Turn right at Diabetes Endocrine Clinic onto Model Town Circular Rd</name>
+          <visibility>0</visibility>
+          <description>Turn right at Diabetes Endocrine Clinic onto Model Town Circular Rd</description>
+          <LookAt>
+            <longitude>74.3212384</longitude>
+            <latitude>31.486634</latitude>
+            <altitude>0</altitude>
+            <heading>115.59213</heading>
+            <tilt>45</tilt>
+            <range>360</range>
+          </LookAt>
+          <styleUrl>#dir_step</styleUrl>
+          <Region>
+            <LatLonAltBox>
+                <north>31.586634</north>
+                <south>31.386634</south>
+                <east>74.42123839999999</east>
+                <west>74.2212384</west>
+                <minAltitude>0</minAltitude>
+                <maxAltitude>0</maxAltitude>
+                <altitudeMode>absolute</altitudeMode>
+            </LatLonAltBox>
+            <Lod>
+                <minLodPixels>512</minLodPixels>
+                <maxLodPixels>-1</maxLodPixels>
+                <minFadeExtent>0</minFadeExtent>
+                <maxFadeExtent>0</maxFadeExtent>
+            </Lod>
+          </Region>
+          <Point>
+            <coordinates>74.3212384,31.486634,0</coordinates>
+          </Point>
+      </Placemark>
+      <Placemark id="1.5.2">
+          <name>Route</name>
+          <visibility>0</visibility>
+          <styleUrl>#dir_route</styleUrl>
+          <LineString>
+            <coordinates>
+                74.2728273,31.4697247,0 74.2728273,31.4697247,0 74.2727769,31.469703,0 74.2727448,31.4697884,0 74.2727134,31.46987,0 74.27268290000001,31.4699594,0 74.2728687,31.4699956,0 74.273072,31.4700238,0 74.2734057,31.4700938,0 74.2735201,31.4701175,0 74.27386540000001,31.4701958,0 74.2742733,31.4702947,0 74.2742751,31.4702951,0 74.2750173,31.4704837,0 74.27504519999999,31.4703945,0 74.27524200000001,31.4704293,0 74.2762915,31.4706655,0 74.27668540000001,31.4707431,0 74.2768866,31.4708163,0 74.2770202,31.4708748,0 74.2772409,31.4709937,0 74.27734599999999,31.4710489,0 74.2774534,31.47113269999999,0 74.27757,31.4712433,0 74.2776381,31.4713249,0 74.2777227,31.4714465,0 74.2780735,31.4718909,0 74.2785245,31.47247520000001,0 74.2787028,31.4727135,0 74.2788754,31.4729462,0 74.2791821,31.4734329,0 74.2792357,31.4735042,0 74.2792511,31.4735276,0 74.2801967,31.4749367,0 74.2803107,31.4751183,0 74.28047410000001,31.4753938,0 74.2805762,31.4755791,0 74.2808266,31.4760335,0 74.2809381,31.4763231,0 74.2810264,31.4765711,0 74.2812385,31.4770937,0 74.2813549,31.4773397,0 74.2813644,31.4773618,0 74.28141100000001,31.4774862,0 74.2815677,31.477872,0 74.2816686,31.4781535,0 74.2817143,31.4783137,0 74.28176209999999,31.4784815,0 74.28176980000001,31.4785644,0 74.28177119999999,31.478616,0 74.2817569,31.4786884,0 74.2817374,31.4787684,0 74.28170919999999,31.4788443,0 74.2815995,31.4790366,0 74.2813404,31.4794885,0 74.2812979,31.4795859,0 74.28105499999999,31.480052,0 74.2810076,31.4801436,0 74.2810041,31.4801464,0 74.2809689,31.4801997,0 74.2809005,31.4803554,0 74.28087859999999,31.4803951,0 74.2808577,31.4804338,0 74.2808517,31.4804434,0 74.2808203,31.4804989,0 74.2807822,31.4805696,0 74.2807067,31.4807044,0 74.280648,31.4807917,0 74.280789,31.4808523,0 74.2810368,31.4809521,0 74.2810698,31.4809678,0 74.281204,31.481061,0 74.2823035,31.48150890000001,0 74.28306480000001,31.481819,0 74.2834704,31.4819973,0 74.284009,31.4822214,0 74.2846212,31.4824788,0 74.2855134,31.4828728,0 74.2855921,31.4829076,0 74.2862411,31.4832002,0 74.28697699999999,31.4835699,0 74.2869927,31.4835782,0 74.28793570000001,31.4840866,0 74.2883337,31.484294,0 74.2884756,31.484368,0 74.28912939999999,31.4847087,0 74.28919550000001,31.4847431,0 74.28962490000001,31.4849666,0 74.2903137,31.4853586,0 74.29056199999999,31.4855041,0 74.2905591,31.4855651,0 74.29056850000001,31.4856046,0 74.2905827,31.4856289,0 74.2906041,31.4856572,0 74.2906826,31.485725,0 74.29108050000001,31.4859914,0 74.2917763,31.4864445,0 74.29222780000001,31.4867386,0 74.29228759999999,31.4867793,0 74.29235370000001,31.4868362,0 74.29240679999999,31.4868946,0 74.2924507,31.4869473,0 74.29248389999999,31.486988,0 74.292502,31.4870232,0 74.2925169,31.487055,0 74.29252529999999,31.4870873,0 74.2925367,31.48713559999999,0 74.2925415,31.4871848,0 74.2925381,31.4872283,0 74.292531,31.4872651,0 74.2925133,31.4873174,0 74.2924969,31.4873549,0 74.2924811,31.4873874,0 74.2924574,31.4874263,0 74.292439,31.4874547,0 74.2924254,31.487492,0 74.2924062,31.4875812,0 74.29217319999999,31.4878405,0 74.2917686,31.4882566,0 74.2915174,31.4885476,0 74.2913049,31.4888007,0 74.2911191,31.4889889,0 74.2910212,31.4890796,0 74.2909264,31.4891716,0 74.29083679999999,31.4892455,0 74.29083180000001,31.4893599,0 74.290825,31.489376,0 74.2908158,31.4893908,0 74.2907964,31.489416,0 74.29072069999999,31.4894864,0 74.2905416,31.4896849,0 74.2905188,31.4897124,0 74.29050959999999,31.4897356,0 74.29050890000001,31.4897513,0 74.290511,31.4897666,0 74.2905153,31.4897784,0 74.29052950000001,31.4897962,0 74.29054499999999,31.4898119,0 74.2905718,31.4898279,0 74.2905907,31.4898356,0 74.29061040000001,31.489839,0 74.2906363,31.4898381,0 74.2906653,31.4898291,0 74.2906941,31.489815,0 74.2907318,31.4897834,0 74.29076449999999,31.4897512,0 74.29095940000001,31.4895262,0 74.29101180000001,31.4894763,0 74.29104030000001,31.489452,0 74.2910584,31.4894402,0 74.2910722,31.4894343,0 74.29109,31.4894299,0 74.29111690000001,31.4894263,0 74.2911718,31.4893422,0 74.29121139999999,31.4892653,0 74.2912681,31.4891686,0 74.2913356,31.4890727,0 74.29143569999999,31.4889598,0 74.291566,31.4888106,0 74.2917073,31.4886483,0 74.2917667,31.4885819,0 74.2920342,31.4882739,0 74.2923196,31.4879353,0 74.29236469999999,31.4878818,0 74.2927339,31.4874436,0 74.2928047,31.4873596,0 74.2930135,31.4871388,0 74.293221,31.4869202,0 74.2932789,31.4868592,0 74.2934286,31.4867017,0 74.293464,31.4866611,0 74.29370230000001,31.48640380000001,0 74.29434190000001,31.4857663,0 74.29514500000001,31.484959,0 74.2952133,31.4848849,0 74.29576299999999,31.4843389,0 74.2958093,31.4842898,0 74.2960399,31.484045,0 74.2962019,31.4838667,0 74.29630210000001,31.48375830000001,0 74.2964652,31.4835689,0 74.2964667,31.4835672,0 74.2968664,31.4831516,0 74.29701900000001,31.4831033,0 74.2970866,31.4830814,0 74.29714490000001,31.4830732,0 74.2972398,31.4830531,0 74.2973365,31.4830476,0 74.29748650000001,31.4830431,0 74.2976318,31.4830747,0 74.297724,31.4830898,0 74.2977265,31.4830905,0 74.29807599999999,31.4832957,0 74.2983965,31.4834871,0 74.299048,31.4838529,0 74.3003209,31.484511,0 74.3010635,31.4849417,0 74.3011461,31.4849898,0 74.3039955,31.4865588,0 74.3041781,31.486662,0 74.3042548,31.4867091,0 74.30433379999999,31.4867647,0 74.3045066,31.4868956,0 74.3045743,31.4869563,0 74.30462199999999,31.487011,0 74.30493300000001,31.4871746,0 74.3050958,31.4873027,0 74.30534729999999,31.4875099,0 74.30565199999999,31.4877955,0 74.3061326,31.4882857,0 74.3063882,31.4885799,0 74.30679360000001,31.4890466,0 74.30768310000001,31.4900315,0 74.30779200000001,31.4901551,0 74.3083816,31.490821,0 74.3085633,31.4910106,0 74.30873389999999,31.4911886,0 74.3089191,31.4913753,0 74.308982,31.4914364,0 74.3089878,31.4914419,0 74.309048,31.4915174,0 74.3090929,31.4915656,0 74.3091682,31.491638,0 74.3091879,31.4916546,0 74.30921360000001,31.4916731,0 74.3093087,31.4917594,0 74.3093799,31.4916973,0 74.30944359999999,31.4916419,0 74.3097179,31.4914441,0 74.3098056,31.4913865,0 74.3100156,31.4912511,0 74.310078,31.4912177,0 74.3101528,31.4911834,0 74.31025289999999,31.4911389,0 74.3111091,31.4908045,0 74.3116916,31.490577,0 74.3118102,31.4905279,0 74.3118589,31.4905126,0 74.3119521,31.4904958,0 74.31197640000001,31.490488,0 74.31201,31.4904832,0 74.3120347,31.4904805,0 74.31210660000001,31.4904903,0 74.3121451,31.4904971,0 74.3121866,31.4905013,0 74.3122082,31.4905042,0 74.3122393,31.4905038,0 74.3122944,31.4905034,0 74.31232319999999,31.4905019,0 74.3123636,31.4904902,0 74.3123808,31.4904818,0 74.31239789999999,31.49047029999999,0 74.3124177,31.4904462,0 74.3124294,31.4904228,0 74.3124399,31.4903838,0 74.3124376,31.4903469,0 74.3124318,31.4903276,0 74.3124311,31.4903062,0 74.3124308,31.4903044,0 74.3124244,31.4902662,0 74.3124222,31.49026080000001,0 74.3124078,31.4902282,0 74.3132813,31.4898736,0 74.3142745,31.4894775,0 74.3150122,31.4891799,0 74.3152892,31.4890676,0 74.3159096,31.4888048,0 74.3162821,31.4886628,0 74.3164318,31.4885994,0 74.3167291,31.4884678,0 74.31729060000001,31.4882259,0 74.3175811,31.4881088,0 74.3177748,31.4880284,0 74.3195238,31.4873704,0 74.3201364,31.4871361,0 74.32014390000001,31.4871332,0 74.3210249,31.4867212,0 74.3212384,31.486634,0 74.32133640000001,31.4865855,0 74.3212812,31.486486,0 74.3211656,31.48627249999999,0 74.321084,31.4860881,0 74.3209708,31.4856277,0 74.32093709999999,31.4854892,0 74.3209075,31.4853329,0 74.320881,31.4851692,0 74.3208563,31.4849597,0 74.3208417,31.4846783,0 74.320842,31.4844279,0 74.3208589,31.4840875,0 74.32087749999999,31.4838734,0 74.3208929,31.4837889,0 74.3208971,31.4836904,0 74.3210867,31.4831922,0 74.32139170000001,31.482504,0 74.3216204,31.48219810000001,0 74.3216694,31.4821225,0 74.3217337,31.4820386,0 74.3218002,31.4819564,0 74.3218949,31.4818533,0 74.32193890000001,31.48180320000001,0 74.3221135,31.4816232,0 74.3223076,31.4814363,0 74.32243149999999,31.4813266,0 74.3226274,31.4811668,0 74.3228172,31.4810305,0 74.32322910000001,31.4807676,0 74.32347900000001,31.4806674,0 74.3235677,31.4806323,0 74.3237938,31.4805528,0 74.3239533,31.48051,0 74.3239305,31.4804656,0 
+            </coordinates>
+          </LineString>
+      </Placemark>
+    </Folder>
+</Folder>
+</kml>
